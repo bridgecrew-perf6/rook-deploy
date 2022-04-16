@@ -8,7 +8,7 @@ apiVersion: ceph.rook.io/v1
 kind: CephObjectStore
 metadata:
   name: my-store
-  namespace: rook-ceph # namespace:cluster
+  namespace: my-rook-ceph1 # namespace:cluster
 spec:
   # The pool spec used to create the metadata pools. Must use replication.
   metadataPool:
@@ -136,6 +136,6 @@ spec:
 # kind: Secret
 # metadata:
 #   name: rook-vault-token
-#   namespace: rook-ceph # namespace:cluster
+#   namespace: my-rook-ceph1 # namespace:cluster
 # data:
 #   token: ROOK_TOKEN_CHANGE_ME
