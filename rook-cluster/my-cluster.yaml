@@ -1,4 +1,5 @@
 #################################################################################################################
+###########################
 # Define the settings for the rook-ceph cluster with common settings for a production cluster.
 # All nodes with available raw devices will be used for the Ceph cluster. At least three nodes are required
 # in this example. See the documentation for more details on storage settings available.
